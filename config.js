@@ -1,8 +1,10 @@
+require('dotenv').config();
+
 module.exports = {
   // your community or team name to display on join page.
   community: process.env.COMMUNITY_NAME || 'SD Hacks 2016',
   // your slack team url (ex: socketio.slack.com)
-  slackUrl: process.env.SLACK_URL || 'YOUR-TEAM.slack.com',
+  slackUrl: process.env.SLACK_URL || 'sdhackers2016.slack.com',
   // access token of slack
   // You can generate it in https://api.slack.com/web#auth
   // You should generate the token in admin user, not owner.
